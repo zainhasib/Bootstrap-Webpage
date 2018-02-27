@@ -1,0 +1,21 @@
+{
+    "name": "nxnx/net-helper",
+    "type": "library",
+    "description": "net helper for my specific needs",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "NetHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrei",
+            "email": "n0at0x@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    }
+}

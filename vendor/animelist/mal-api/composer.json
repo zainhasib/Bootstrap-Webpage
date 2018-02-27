@@ -1,0 +1,25 @@
+{
+    "name": "animelist/mal-api",
+    "type": "library",
+    "keywords": ["MyAnimeList.net", "myanimelist", "animelist", "api", "official", "unofficial"],
+    "description": "MyAnimeList.net (un)official API",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "MalApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrei",
+            "email": "n0at0x@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "pimple/pimple": "^3.0",
+        "nxnx/net-helper": "^1.0",
+        "nxnx/spec-parser": "^1.0"
+    }
+}

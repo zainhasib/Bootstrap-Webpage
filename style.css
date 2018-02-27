@@ -1,0 +1,119 @@
+#home-img {
+    height:40px;
+    width:100px;
+}
+
+/* Content Center */
+.content-center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Right & left Align*/
+.right-align {
+    float: right;
+}
+
+.left-align {
+    float: left;
+} 
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+nav {
+    position: fixed;
+    top: -1;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer{
+
+    bottom: 0;
+}
+
+/* footer {
+    position: sticky;
+    left:0px;
+    bottom:0px;
+    width:100%;
+ } */
+
+
+.foot {
+    height: 100px;
+    background: rgb(30, 4, 78);
+    color: white;
+}
+
+section img {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.nest {
+    background: rgb(235, 233, 233);
+    margin: 40px 0px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#gap {
+    height: 300px;
+}
+
+.anime {
+    height: 400px;
+    width: 24%;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.anime a {
+    text-decoration: none;
+}
+
+.anime img {
+    margin: 0px;
+    height: 400px;
+    width: 100%;
+    margin: 10px;
+}
+
+.anime a img:hover {
+    opacity: 0.8;
+}
+
+.anime h5 {
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    height: 20px;
+    background: red;
+    text-align: center;
+    overflow: hidden;
+}
